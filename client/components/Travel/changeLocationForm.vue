@@ -20,7 +20,7 @@ async function changeUserLocation() {
 </script>
 
 <template>
-  <form class="pure-form pure-form-aligned" @submit.prevent="changeUserLocation">
+  <form class="pure-form pure-form-aligned" @submit.prevent="setLocation">
     <h3>Change Location</h3>
     <fieldset>
       <div class="pure-control-group">
